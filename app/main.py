@@ -14,7 +14,6 @@ app = FastAPI()
 async def add_questions(questions_number: QuestionsNumberRequest,
                         session: AsyncSession = Depends(get_session)):
     result = await add_q(session, questions_number.questions_num)
-    print('result', result)
     return result
 
 
