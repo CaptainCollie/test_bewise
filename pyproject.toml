@@ -12,6 +12,7 @@ alembic = "^1.8.1"
 asyncpg = "^0.26.0"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
